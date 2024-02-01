@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --salmon-pink: #FF879B;
+    --white: #FFFFFF;
+    --peach: #FFC285;
+    font-family: 'Indie Flower', cursive;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--salmon-pink);
+    color: var(--white);
+    display: flex;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header{
+    font-size: 50px;
+    
+}
+
+#noBtn{
+    position: absolute;
+    transition: 0.5s;
+    margin-left: 150px;
+}
+
+#yesBtn{
+    position: absolute;
+    margin-right: 150px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn{
+    display: inline-block;
+    color: #1C0E00;
+    background-color: var(--peach);
+    padding: 10px 25px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #FFA64D;
+}
+
+
+.gif_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
